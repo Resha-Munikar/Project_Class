@@ -98,3 +98,8 @@ Route::get('/user/{id}',function($id){
 Route::get('/post/{slug}',function($slug){
     return "Post with slug {$slug}";
 })->where ('slug','[a-zA-Z0-9-]+');
+
+//fallback
+Route::fallback(function(){
+    return view('errors.404');
+});
