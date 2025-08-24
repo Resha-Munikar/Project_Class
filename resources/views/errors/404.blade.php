@@ -9,6 +9,6 @@
 <body class="flex flex-col items-center justify-center min-h-screen">
     <h1 class="text-4xl font-bold text-red-500">Page Not Found</h1>
     <p class="mt-2">The page you are looking for is not available.</p>
-    <h1>hi</h1>
+    
 </body>
 </html>
